@@ -276,12 +276,18 @@ html[xmlns] .flexslider .slides {
 
 /* CSS code for adding a different background image for mobile devices */
 @media screen and (max-width: 767px) {
-  .image1 .flexslider .slides li {
+   .flexslider .slides li {
     background-image: none !important;
   }
-  .image1 .bg-image-mobile {
+   .bg-image-mobile1 {
     display: block !important;
     background-image: url('/images/bg1-mobile.jpg') !important;
+    background-size: cover;
+    background-position: center center;
+  }
+  .bg-image-mobile2 {
+    display: block !important;
+    background-image: url('/images/cs_gear-mobile.jpg') !important;
     background-size: cover;
     background-position: center center;
   }
