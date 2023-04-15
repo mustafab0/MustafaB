@@ -276,9 +276,9 @@ html[xmlns] .flexslider .slides {
 
 /* CSS code for adding a different background image for mobile devices */
 @media screen and (max-width: 767px) {
-   .flexslider .slides li {
+   /* .flexslider .slides li {
     background-image: none !important;
-  }
+  } */
   .bg-image-mobile1, .bg-image-mobile2 {
     background-size: cover;
     background-position: center center;
